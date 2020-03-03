@@ -238,14 +238,17 @@ include("php/timeline/timeline.php");
                     <div class="tools">
                       <ul class="publishing-tools list-inline">
                         <li>
-                          <!-- <a href="#"> -->
-                            <input class="ion-images" type="file" id="img" name="img" accept="image/*">
-                            <i class="ion-images"></i>
-                            <!-- </a> -->
+                        <label for="photos">
+                          <i class="upload ion-images" style="font-size:20px;cursor:pointer"></i>
+                          <input type="file" id="photos" style="display: none" name="image" accept="image/gif,image/jpeg,image/jpg,image/png" data-original-title="upload photos">
+                        </label>
                         </li>
-                        O|R
                         <li>
-                          <a href="#"><i class="ion-ios-videocam"></i></a>
+                        <label for="videos">
+                          <i class="upload ion-ios-videocam" style="font-size:20px;cursor:pointer"></i>
+                          <input type="file" id="videos" style="display: none" name="video" accept="video/mp4,
+                          video/gif" data-original-title="upload videos">
+                        </label>
                         </li>
                       </ul>
                       <button class="btn btn-primary pull-right">Publish</button>
