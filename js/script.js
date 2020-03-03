@@ -209,9 +209,3 @@ $('.delete-poll-button').click(function() {
 $('.pop-no').click(function() {
   $('#delete-poll-pop').slideToggle();
 });
-
-// timeline icons
-$('.upload').click(function() {
-  alert('hello');
-  console.log('hello');
-});
