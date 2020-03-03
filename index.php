@@ -14,7 +14,7 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id']))
     <meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
     <meta name="robots" content="index, follow" />
     <title>Friend Finder | A Complete Social Network Template</title>
-
+    <!-- hello world -->
     <!-- Stylesheets
     ================================================= -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -54,7 +54,6 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id']))
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span><img src="images/down-arrow.png" alt="" /></span></a>
                 <ul class="dropdown-menu newsfeed-home">
                   <li><a href="index.php">Landing Page 1</a></li>
-                  <li><a href="index.php">Landing Page 2</a></li>
                 </ul>
               </li>
               <li class="dropdown">
