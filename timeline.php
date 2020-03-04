@@ -163,6 +163,7 @@ include("php/timeline/timeline.php");
       <!-- Timeline
       ================================================= -->
       <div class="timeline">
+        <!--image code-->
         <div class="timeline-cover">
           <!--Timeline Menu for Large Screens-->
           <div class="timeline-nav-bar hidden-sm hidden-xs">
@@ -197,6 +198,7 @@ include("php/timeline/timeline.php");
           <!--Timeline Menu for Small Screens-->
           <div class="navbar-mobile hidden-lg hidden-md">
             <div class="profile-info">
+              <!--image code-->
               <img src="http://placehold.it/300x300" alt="" class="img-responsive profile-photo" />
               <h4><?php echo "$firstname $lastname" ?></h4>
               <p class="text-muted"><?php echo " $email" ?></p>
@@ -223,6 +225,7 @@ include("php/timeline/timeline.php");
                 <div class="row">
                   <div class="col-md-7 col-sm-7">
                     <div class="form-group">
+                      <!--image code-->
                       <img src="http://placehold.it/300x300" alt="" class="profile-photo-md" />
                       <textarea
                         name="texts"
@@ -267,6 +270,7 @@ include("php/timeline/timeline.php");
                   <p class="text-grey">Sometimes ago</p>
                 </div>
                 <!--Post Date End-->
+                <!--image code-->
 
                 <img
                   src="http://placehold.it/1920x1280"
@@ -274,6 +278,7 @@ include("php/timeline/timeline.php");
                   class="img-responsive post-image"
                 />
                 <div class="post-container">
+                  <!--image code-->
                   <img
                     src="http://placehold.it/300x300"
                     alt="user"
@@ -306,6 +311,7 @@ include("php/timeline/timeline.php");
                     </div>
                     <div class="line-divider"></div>
                     <div class="post-comment">
+                      <!--image code-->
                       <img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />
                       <p>
                         <a href="timeline.html" class="profile-link">Diana </a
