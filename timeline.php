@@ -267,6 +267,8 @@ include("php/timeline/timeline.php");
                   <p class="text-grey">Sometimes ago</p>
                 </div>
                 <!--Post Date End-->
+                
+                <!-- post img -->
 
                 <img
                   src="http://placehold.it/1920x1280"
